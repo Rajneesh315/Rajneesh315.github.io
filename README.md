@@ -9,7 +9,7 @@
 </head>
 
 <body>
-	<p><a href="index.md">SHaktimaan</a></p>
+	<p><a href="shaktimaan.md">SHaktimaan</a></p>
 </body>
 
 </html>
