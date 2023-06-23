@@ -1,0 +1,33 @@
+html {
+	height: auto;
+	width: 100%;
+}
+
+body {
+	display: grid;
+	background: rgb(231, 231, 231);
+	background-position-x: center;
+	place-items: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-left: 0;
+}
+
+#main {
+	place-items: center;
+	max-width: 250px;
+	padding: 1rem;
+	position: relative;
+	padding: 3px;
+	align-content: center;
+}
+
+
+h1 {
+	text-align: center;
+
+}
+
+p {
+	text-align: center;
+	font-family: cursive;
+}
