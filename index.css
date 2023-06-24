@@ -1,19 +1,24 @@
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Quicksand', sans-serif;
+*/
+
 html {
 	height: 100vh;
 	width: 100vw;
 }
 
-@media (prefers-color-scheme: dark){
-	body{
+@media (prefers-color-scheme: dark) {
+	body {
 		background-color: rgb(19, 19, 19);
 		color: beige;
 	}
-	
+
 }
 
-@media(prefers-color-scheme: light){
-	body{
-		background-color:beige ;
+@media(prefers-color-scheme: light) {
+	body {
+		background-color: beige;
 		color: black;
 	}
 }
@@ -29,10 +34,11 @@ body {
 
 #main {
 	place-items: center;
-	max-width: 480px;
-	padding: 1rem;
+	max-width: 720px;
+	padding: 0.5rem;
 	position: relative;
 	align-content: center;
+	animation-delay: 3s;
 	animation: fadein ease 3s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
@@ -50,10 +56,10 @@ body {
 
 h1 {
 	text-align: center;
-
+	font-family: 'Quicksand', sans-serif;
 }
 
 p {
 	text-align: center;
-	font-family: cursive;
+	font-family: 'Comfortaa', cursive;
 }
