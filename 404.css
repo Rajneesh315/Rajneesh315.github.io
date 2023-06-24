@@ -2,7 +2,7 @@
 font-family: 'Kanit', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
-body{
+body {
 	display: grid;
 	place-items: center;
 	place-content: center;
@@ -18,12 +18,16 @@ section {
 	animation: fadein ease 3s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
+	border-style: groove;
+	border-color: rgb(51, 65, 60);
+	border-width: 0.6vw;
 }
 
 
-h1 {
+p {
 	color: rgb(199, 0, 0);
 	font-family: 'Kanit', sans-serif;
+	font-size: 10vh;
 
 }
 
