@@ -8,6 +8,11 @@ html {
 	width: 100vw;
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: rgb(19, 19, 19);
@@ -57,9 +62,20 @@ body {
 h1 {
 	text-align: center;
 	font-family: 'Comfortaa', cursive;
+	font-size: xx-large;
 }
 
 p {
 	text-align: center;
 	font-family: 'Comfortaa', cursive;
+	font-size: larger;
+}
+
+
+#abt:hover{
+	text-decoration: underline;
+	font-size: 105%;
+	text-decoration-thickness: 2px;
+	text-decoration-color: rgb(51, 65, 60);
+
 }
