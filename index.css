@@ -8,20 +8,23 @@ body {
 	background-position-x: center;
 	place-items: center;
 	font-family: 'Comfortaa', 'Times New Roman', Times, serif;
-	margin-left: 0;
+
 
 }
 
 #main {
 	place-items: center;
 	max-width: 720px;
-	padding: 0.5rem;
-	position: relative;
 	align-content: center;
 	animation-delay: 3s;
 	animation: fadein ease 3s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 @keyframes fadein {
@@ -44,13 +47,4 @@ p {
 	text-align: center;
 	font-family: 'Comfortaa', cursive;
 	font-size: larger;
-}
-
-
-#abt:hover{
-	text-decoration: underline;
-	font-size: 105%;
-	text-decoration-thickness: 2px;
-	text-decoration-color: rgb(51, 65, 60);
-
 }
