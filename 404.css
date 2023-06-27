@@ -10,7 +10,7 @@ body {
 
 section {
 	place-items: center;
-	max-width: 720px;
+	max-width: 95vw;
 	align-content: center;
 	animation-delay: 3s;
 	animation: fadein ease 3s;
@@ -30,7 +30,7 @@ section {
 p {
 	color: rgb(199, 0, 0);
 	font-family: 'Kanit', sans-serif;
-	font-size: 10vh;
+	font-size: 6vw;
 
 }
 
