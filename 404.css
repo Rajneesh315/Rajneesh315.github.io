@@ -7,6 +7,7 @@ body {
 	place-items: center;
 	place-content: center;
 	font-family: 'Comfortaa', 'Times New Roman', Times, serif;
+	background-image: url(resources/error-404-l-15.webp);
 }
 
 section {
@@ -22,6 +23,7 @@ section {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+
 }
 
 
