@@ -6,6 +6,7 @@ body {
 	display: grid;
 	place-items: center;
 	place-content: center;
+	font-family: 'Comfortaa', 'Times New Roman', Times, serif;
 }
 
 section {
@@ -16,9 +17,6 @@ section {
 	animation: fadein ease 3s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	border-style: dashed;
-	border-color: rgb(51, 65, 60);
-	border-width: 0.6vw;
 	margin: 0;
 	position: absolute;
 	top: 50%;
@@ -28,26 +26,16 @@ section {
 
 
 p {
-	color: rgb(199, 0, 0);
-	font-family: 'Kanit', sans-serif;
 	font-size: 6vw;
 
 }
 
-#home {
-	color: rgb(0, 199, 0);
-}
-
 b {
-	font-family: 'Open Sans', sans-serif;
-	font-style: italic;
 	font-weight: 900;
 }
 
 b:hover {
-	text-decoration: underline;
 	font-size: 105%;
-	text-decoration-thickness: 2px;
 	text-decoration-color: rgb(51, 65, 60);
 
 }
