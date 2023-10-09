@@ -1,7 +1,3 @@
-/*
-font-family: 'Kanit', sans-serif;
-font-family: 'Open Sans', sans-serif;
-*/
 body {
 	display: grid;
 	place-items: center;
@@ -23,14 +19,11 @@ section {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-
 }
-
 
 p {
 	font-size: 6vw;
 	text-align: center;
-
 }
 
 b {
@@ -40,5 +33,4 @@ b {
 b:hover {
 	font-size: 105%;
 	text-decoration-color: rgb(51, 65, 60);
-
 }
