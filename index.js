@@ -8,4 +8,4 @@
 	console.log('Your OS: ' + OSName);
 }
 
-alert("Hello " + OSName + ",This Site Is Under Construction.")
+alert("Hello " + OSName + " ,This Site Is Under Construction.")
